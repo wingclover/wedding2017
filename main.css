@@ -1,0 +1,115 @@
+html, body {
+	margin:0;
+	padding:0;
+	height:100%;
+	font-size: 1.2em;
+}
+
+h3, h4 {
+  font-family: 'Lemonada',cursive;
+}
+
+.wrapper {
+	min-height:100%;
+	position:relative;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#schedule-wrapper {
+	background-image: url(schedule.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:100% 100%;
+}
+
+img {
+  display:block;
+  margin:auto;
+}
+
+#schedule, #rsvp {
+  padding-top: 20%;
+  background-image: url(Love109.svg);
+  opacity: 0.7;
+  height:700px;
+}
+.love {
+  width: 80%;
+  text-align: center;
+  margin:auto;
+  height:200px;
+	padding-top: 20%;
+  /*line-height: 200px;*/
+  background-image: url(http://www.clker.com/cliparts/x/v/i/Y/m/t/white-heart-md.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px 200px;
+}
+
+span {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color:#b4a058;
+  }
+
+.frame {
+  /*background-color: yellow;*/
+  height: 80%;
+  /*width: 80%;*/
+  margin-top: 5%;
+  clear: both;
+  /*margin-left: auto;
+  margin-right: auto;*/
+}
+
+.frame div {
+  /*padding-top: 5px;
+  padding-bottom: 5px;*/
+	margin-top: 5px;
+  border-radius: 15px;
+  display: block;
+}
+
+.frame p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+#registry-frame div {
+	margin-top: 20px;
+}
+
+.btn {
+	opacity: 0.8;
+	background-color: white;
+	border: solid #b4a058;
+	border-radius: 20px;
+	color: #b4a058;
+}
+
+.btn-primary:hover {
+	color: #b4a058;
+	border: none;
+	background-color: white;
+}
+
+.nav {
+	border: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.map-button {
+	margin-top: -15px;
+}
+
+/*#map1, #map2 {
+  height: 150px;
+  width: 200px;
+  margin-top: 10%;
+  border: solid #b4a058;
+
+}*/
