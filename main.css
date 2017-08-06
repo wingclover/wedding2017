@@ -22,6 +22,7 @@ h3, h4 {
   background-repeat: no-repeat;
   background-position: center;
   background-size:100% 100%;
+
 }
 
 img {
@@ -57,7 +58,7 @@ span {
   /*background-color: yellow;*/
   height: 80%;
   /*width: 80%;*/
-  margin-top: 5%;
+  margin-top: 90px;
   clear: both;
   /*margin-left: auto;
   margin-right: auto;*/
@@ -113,3 +114,16 @@ a:hover {
   border: solid #b4a058;
 
 }*/
+
+@media (max-width: 991px) and (min-width: 768px) {
+	.frame {
+	    margin-top: 170px;
+			margin-bottom: 150px;
+	}
+}
+@media (max-width: 767px){
+	.frame {
+	    margin-top: 180px;
+			margin-bottom: 150px;
+	}
+}
