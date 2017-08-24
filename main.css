@@ -17,6 +17,7 @@ h3, h4 {
   margin-right: auto;
 }
 
+
 #schedule-wrapper {
 	background-image: url(schedule.jpeg);
   background-repeat: no-repeat;
@@ -120,10 +121,50 @@ a:hover {
 	    margin-top: 170px;
 			margin-bottom: 150px;
 	}
+	.love{
+		height:100px;
+		padding:20px;
+	}
+	#index-wrapper   {
+		display: flex;
+		flex-direction: column;
+	}
+	#index-wrapper>#schedule {
+		order: 2;
+		height:100px;
+		padding-top: 0px;
+		display: inline-block;
+	}
+	#index-wrapper>#rsvp  {
+		order: 3;
+		height:100px;
+		padding-top: 0px;
+		display: inline-block;
+
+	}
+	#index-wrapper>#invitation {
+		order: 1;
+		background-image: url(Love109.svg);
+
+	}
+
 }
 @media (max-width: 767px){
 	.frame {
 	    margin-top: 180px;
 			margin-bottom: 150px;
+	}
+	#index-wrapper   {
+		display: flex;
+		flex-direction: column;
+	}
+	#index-wrapper>#schedule {
+		order: 2;
+	}
+	#index-wrapper>#rsvp  {
+		order: 3;
+	}
+	#index-wrapper>#invitation {
+		order: 1;
 	}
 }
