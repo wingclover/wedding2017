@@ -18,7 +18,7 @@ h3, h4 {
 }
 
 
-#schedule-wrapper {
+#schedule-wrapper, #registry-wrapper {
 	background-image: url(schedule.jpeg);
   background-repeat: no-repeat;
   background-position: center;
@@ -108,13 +108,6 @@ a:hover {
 	margin-top: -15px;
 }
 
-/*#map1, #map2 {
-  height: 150px;
-  width: 200px;
-  margin-top: 10%;
-  border: solid #b4a058;
-
-}*/
 
 @media (max-width: 991px) and (min-width: 768px) {
 	.frame {
