@@ -9,6 +9,11 @@ h3, h4 {
   font-family: 'Lemonada',cursive;
 }
 
+h3 {
+	margin-top: 25px;
+	margin-bottom: 0px;
+}
+
 .wrapper {
 	min-height:100%;
 	position:relative;
@@ -59,7 +64,7 @@ span {
   /*background-color: yellow;*/
   height: 80%;
   /*width: 80%;*/
-  margin-top: 90px;
+  margin-top: 60px;
   clear: both;
   /*margin-left: auto;
   margin-right: auto;*/
@@ -68,7 +73,6 @@ span {
 .frame div {
   /*padding-top: 5px;
   padding-bottom: 5px;*/
-	margin-top: 5px;
   border-radius: 15px;
   display: block;
 }
@@ -100,7 +104,9 @@ span {
 	border: none;
 }
 
-a:hover {
+
+
+a:hover, a:visited {
 	text-decoration: none;
 }
 
@@ -111,7 +117,7 @@ a:hover {
 
 @media (max-width: 991px) and (min-width: 768px) {
 	.frame {
-	    margin-top: 170px;
+	    margin-top: 130px;
 			margin-bottom: 150px;
 	}
 	.love{
@@ -141,10 +147,15 @@ a:hover {
 
 	}
 
+	#schedule-wrapper, #registry-wrapper {
+		background-image: url(schedule-1.jpg);
+
+	}
+
 }
 @media (max-width: 767px){
 	.frame {
-	    margin-top: 180px;
+	    margin-top: 130px;
 			margin-bottom: 150px;
 	}
 	#index-wrapper   {
@@ -159,5 +170,9 @@ a:hover {
 	}
 	#index-wrapper>#invitation {
 		order: 1;
+	}
+	#schedule-wrapper, #registry-wrapper {
+		background-image: url(schedule-1.jpg);
+
 	}
 }
